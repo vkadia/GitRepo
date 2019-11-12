@@ -1,0 +1,8 @@
+-- setting up project 
+git init 
+git add 
+git remote add origin <URL to git repo>
+git push -u origin master 
+
+-- create a feature branch 
+git checkout master 
