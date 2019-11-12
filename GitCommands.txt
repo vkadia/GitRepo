@@ -4,5 +4,7 @@ git add
 git remote add origin <URL to git repo>
 git push -u origin master 
 
--- create a feature branch 
+-- create a feature branch (https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 git checkout master 
+git fetch origin
+git reset --hard origin/master
