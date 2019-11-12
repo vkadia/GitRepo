@@ -3,8 +3,10 @@ git init
 git add 
 git remote add origin <URL to git repo>
 git push -u origin master 
-
+git remote -v
 -- create a feature branch (https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 git checkout master 
 git fetch origin
 git reset --hard origin/master
+git checkout -b new-feature -- create a new branch new-feature 
+git push -u origin new-feature -- push changes to new feature branch -u is to keep track of changes
